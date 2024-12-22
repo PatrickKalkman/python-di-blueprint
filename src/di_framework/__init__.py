@@ -7,9 +7,10 @@ and interception through practical implementation.
 
 from .composition import SimpleContainer
 from .composition import Lifetime
+from .composition import Interceptor
 
 __version__ = "0.1.0"
 __author__ = "Patrick Kalkman"
 
 # Expose key classes at package level for cleaner imports
-__all__ = ["SimpleContainer", "Lifetime"]
+__all__ = ["SimpleContainer", "Lifetime", "Interceptor"]
