@@ -63,14 +63,14 @@ container.register(DatabaseConnection, Lifetime.SINGLETON)
 To run the complete examples:
 
 ```bash
-# Basic dependency injection
-python -m di_framework.examples.basic_usage
+# Lifecycle management Singleton
+uv run ./examples/simple_container_singleton.py
 
-# Lifecycle management
-python -m di_framework.examples.lifecycle_demo
+# Lifecycle management Transient
+uv run ./examples/simple_container_transient.py
 
 # Interception patterns
-python -m di_framework.examples.interceptor_demo
+uv run ./examples/simple_container_interceptor.py
 ```
 
 ## Project Structure
